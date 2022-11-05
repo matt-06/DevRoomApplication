@@ -1,0 +1,15 @@
+#database#
+database:
+  host: "127.0.0.1"
+  port: "3306"
+  databasename: "test" #name of the database
+  username: "root"
+  password: ""
+
+monsters:
+  super_zombie:
+    entities: 1
+    spawn_time: 150 #ticks
+  super_wither_skeleton:
+    entities: 1
+    spawn_time: 200 #ticks

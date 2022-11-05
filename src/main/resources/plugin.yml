@@ -1,0 +1,14 @@
+name: DevRoomApplication
+version: '${project.version}'
+main: DevRoomApplication.Core
+api-version: 1.18
+authors: [ caminoh_ ]
+commands:
+  setstart:
+    description: "/setstart"
+  start:
+    description: "/start"
+  stop:
+    description: "/stop"
+  stats:
+    description: "/stats"
